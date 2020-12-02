@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="header">
+        <h1>PRODUTOS</h1>
+    </header>
+
+    <section>
+        <form action="POST">
+            <div class="card">
+                <div class="card-input">
+                    <p class="title">Produto(s):</p>
+                    <div class="card-produto">
+                        <div class="card-img">
+                            <img src="../img/icon-tag.png"> <!-- para controle de garagem utilizar /icon-controle.png -->
+                        </div>
+                        <div class="card-desc">
+                            <p>1x - Tag RFID Intelbras</p> <!-- Tag ou Controle -->
+                            <p>Unidade: R$25,00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-input">
+                    <p class="title">Forma de pagamento:</p>
+                    <input type="radio" id="cartão-credito" name="tipo-pagamento">
+                    <label for="cartão-credito">Cartão de crédito</label>
+                    <input type="radio" id="cartão-debito" name="tipo-pagamento">
+                    <label for="cartão-debito">Cartão de débito</label></br>
+                    <input type="radio" id="boleto" name="tipo-pagamento">
+                    <label for="boleto">Boleto</label>
+                </div>
+                
+
+                <div class="tipo-pagamento-cartão"> <!--tipo-pagamento-cartão-hidden -->
+                    <div class="card-input">
+                        <p class="title">CPF do titular:</p>
+                        <input class="input" type="number" id="cpf" name="cpf">
+                    </div>
+                    <div class="card-input">
+                        <p class="title">Numero do Cartão:</p>
+                        <input class="input" type="number" id="number-cartao" name="number-cartao">
+                    </div>
+                    <div class="card-input">
+                        <p class="title">Nome impresso no cartão:</p>
+                        <input class="input" type="text" id="name" name="name">
+                    </div>
+                    <div class="card-validade">
+                        <p class="title-validate">Validade:</p>
+                        <input class="input-validate" type="text" id="mes" name="mes" placeholder="mês">
+                        <input class="input-validate" type="text" id="ano" name="ano" placeholder="ano">
+                    </div>
+                    
+                    <div class="card-validade">
+                        <p class="title-code">Codigo de segurança:</p>
+                        <input class="input-code-verification" type="text" id="code" name="code" placeholder="xxx">
+                    </div>
+
+                    <div class="card-validade">
+                        <div>
+                            <h2 class="total">Total: R$50,00</h2>
+                        </div>
+                        <select class="select" name="select">
+                            <option value="valor1">1x - sem juros</option> 
+                            <option value="valor2">2x - sem juros</option>
+                            <option value="valor3">3x - sem juros</option>
+                        </select>
+                       
+                    </div>
+    
+                
+                </div>
+
+                <div class="tipo-pagamento-boleto-hidden"> <!--tipo-pagamento-boleto-hidden -->
+
+                    <div class="card-input">
+                        <p class="title">Nome completo:</p>
+                        <input class="input" type="text" id="name" name="name">
+                    </div>
+                    <div class="card-input">
+                        <p class="title">CPF</p>
+                        <input class="input" type="number" id="cpf" name="cpf">
+                    </div>
+                    
+                    <div >
+                        <h2 class="total">Total: R$50,00</h2>
+                    </div>
+
+
+                </div>
+
+                
+    
+
+                <button class="btn-continue">Finalizar</button>
+
+                <div class="copyright">
+                    <p>Copyright - Grupo Tattica ©</p>
+                    <p>2015 - 2020 - (27) 3026-2196</p>
+                </div>
+                
+
+             </div>
+        </form>
+    </section>
+
+</body>
+</html>

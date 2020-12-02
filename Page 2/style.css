@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+
+    body {
+      background-color: #fcfcfc;
+    }
+    section{
+      margin: 0 auto;
+      justify-content: center;
+      display: flex;
+    }
+
+    .header{
+        background-color: #198BC4;
+        height: 79px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+
+    .title{
+        font-family: 'Roboto', sans-serif;
+        color: #198BC4;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+    }
+
+    .title-code-pacelas{
+        font-family: 'Roboto', sans-serif;
+        color: #198BC4;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+        width: 140px;
+
+    }
+
+    .input{
+        width: 308px;
+        padding: 10px;
+        height: 50px;
+        box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+        border: 1px solid #b8b8b8;
+        border-radius: 10px;
+        font-size: 18px;
+        
+    }
+
+    .select{
+        width: 157px;
+        padding: 10px;
+        height: 50px;
+        box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+        border: 1px solid #b8b8b8;
+        border-radius: 10px;
+        font-size: 18px;
+        margin-top: 10px;
+        color: #7D7D7D;
+    }
+
+    .input2{
+        width: 150px;
+        padding: 10px;
+        height: 50px;
+        box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+        border: 1px solid #b8b8b8;
+        border-radius: 10px;
+        font-size: 18px;
+        margin-right: 8px;
+
+    
+    }
+
+    .input:focus{
+        border: 1px solid #198BC4;
+        outline: none;
+        transition: ease-in-out 0.5s;
+        box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.2);
+
+    }
+    .input2:focus{
+        border: 1px solid #198BC4;
+        outline: none;
+        transition: ease-in-out 0.5s;
+        box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.2);
+
+    }
+
+    .card{
+        margin: 0 auto;
+        width: 95%; 
+    }
+
+    .cep-numb{
+        display: flex;
+
+        
+    }
+
+    .edit{
+        margin-top: 20px;
+        width: 150px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        margin-left: 170px;       
+    }
+
+    .help{
+        background-color: #198BC4;
+        width: 18px;
+        height: 18px;
+        padding: 2px;
+        border-radius: 50%;
+        text-align: center;
+        justify-content: center;
+        font-size: 12px;
+        margin-right: 10px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .btn-edit{
+        background-color:  #198BC4;
+        font-size: 14px;
+        color: white;
+        border-radius: 50px;
+        padding: 4px 22px;
+        border: none;
+        cursor: pointer;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    .info{
+        width: 318px;
+        margin-top: 18px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        font-family: 'Roboto', sans-serif;
+        color: #7D7D7D;
+    }
+
+    .info a{
+        text-decoration: none;
+        color:  #198BC4;
+    }
+
+    .btn-continue{
+        /* width: 318px;
+        height: 50px; */
+        border-radius: 50px;
+        border: none;
+        background-color:  #198BC4;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        color: white;
+        margin-top: 22px;
+        margin-bottom: 22px;
+        width: 308px;
+        padding: 10px;
+        height: 50px;
+        box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+
+    .copyright{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: #7D7D7D;
+        font-size: 10px;
+        margin: 20px;
+        
+
+
+    }
+
+    .card-validade{
+        display: flex; 
+    }
+
+    .card-input{
+        font-family: 'Roboto', sans-serif;
+        color: #7D7D7D;
+        font-size: 16px;
+    }
+
+
+    #cartão-debito{
+        margin-left: 10px;
+    }
+    #boleto{
+        margin-top: 10px;
+    }
+
+    .input-validate{
+        width: 100px;
+        padding: 10px;
+        height: 50px;
+        box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+        border: 1px solid #b8b8b8;
+        border-radius: 10px;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 4px;
+    }
+
+
+    .input-code-verification{
+        width: 100px;
+        padding: 10px;
+        height: 50px;
+        box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+        border: 1px solid #b8b8b8;
+        border-radius: 10px;
+        font-size: 18px;
+        margin-top: 10px;
+        background-image: url(../img/icon-cvv-new.png) ;
+        background-repeat: no-repeat;
+        background-position: 48px 2px;
+        background-size: 50px;
+    
+    }
+
+    .title-code{
+        font-family: 'Roboto', sans-serif;
+        color: #198BC4;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+        width: 208px;
+    }
+
+    .title-validate{
+        font-family: 'Roboto', sans-serif;
+        color: #198BC4;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+        width: 106px;
+    }
+
+    .total {
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 10px;
+        width: 152px;
+
+        color: #7D7D7D;
+    }
+
+    .card-produto{
+        width: 310px;
+        height: 70px;
+        display: flex;
+        border: 1px solid black;
+        border-radius: 50px;
+        border: 1px solid #198BC4;
+        box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-desc{
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.06em;
+    }
+
+    .tipo-pagamento-cartão-hidden{
+       display: none;
+       opacity: 0;
+    }
+
+    .tipo-pagamento-boleto-hidden{
+        display: none;
+        opacity: 0;
+    }
+
