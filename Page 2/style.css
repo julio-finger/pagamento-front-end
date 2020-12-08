@@ -207,7 +207,7 @@
     }
 
     .card-validade{
-        display: flex; 
+        display: flex;
     }
 
     .card-input{
@@ -282,7 +282,7 @@
         font-family: 'Roboto', sans-serif;
         margin-bottom: 10px;
         width: 152px;
-
+        letter-spacing: 0.02em;
         color: #7D7D7D;
     }
 

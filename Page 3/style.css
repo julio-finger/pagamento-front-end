@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+
+    body {
+      background-color: #fcfcfc;
+      
+    
+    }
+
+    section{
+      margin: 60px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .header{
+        background-color: #198BC4;
+        height: 79px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+
+ 
+
+    .compra-concluida{
+        font-family: Roboto;
+        width: 200px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        /* or 133% */
+
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #0AA06E;
+
+    }
+
+    .compra-entrega{
+        margin-top: 40px;
+        font-family: Roboto;
+        width: 200px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        /* or 133% */
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #A2482A;
+        margin-bottom: 40px;
+    }
+
+  
+
+
+    .informacoes{
+        position: fixed;
+        bottom: 0;
+        background-color: #198BC4;
+        width: 100%;
+        height: 79px;
+        text-align: center;    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 28px;
+        color: white;
+        font-family: Roboto;
+    
+     
+
+    }
+
+    .telefone{
+        width: 168px;
+        background-image: url(../img/el_phone-alt.png);
+        background-repeat: no-repeat;
+    }
+
